@@ -1,4 +1,6 @@
 SalaryManagement::Application.routes.draw do
+  resources :salaries
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

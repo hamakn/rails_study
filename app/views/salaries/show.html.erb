@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fee:</b>
+  <%= @salary.fee %>
+</p>
+
+<p>
+  <b>Published at:</b>
+  <%= @salary.published_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_salary_path(@salary) %> |
+<%= link_to 'Back', salaries_path %>
